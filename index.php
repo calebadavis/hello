@@ -7,11 +7,12 @@
 		
 </head>
 <body>
-
+        <p>
 	<?php 
 	echo 'Hello World! You are visiting ';
 	echo $_SERVER['SERVER_NAME']; 
 	?>
-	
+        </p>
+        <?php phpinfo(); ?>
 </body>
 </html>
