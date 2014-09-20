@@ -8,7 +8,8 @@
     <p>
       <?php 
         echo '<h1>Hello World!</h1>You are visiting: ' . $_SERVER['SERVER_NAME'] . '<br/>';
-        echo 'Your browser identified itself as: ' . $_SERVER['HTTP_USER_AGENT'];
+        echo 'Your browser identified itself as: ' . $_SERVER['HTTP_USER_AGENT'] . '<br/>';
+        echo ((3 < 4) ? 'less than' : 'greater than') . '<br/>';
       ?>
     </p>
 <!--        <?php phpinfo(); ?> -->
